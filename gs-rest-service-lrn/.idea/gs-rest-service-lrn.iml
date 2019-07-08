@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="webservices" name="WebServices">
+        <configuration ws.engine="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+      </facet>
+    </facet>
+    <facet type="WebServicesClient" name="WebServices Client">
+      <configuration ws.engine="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping />
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/META-INF/persistence.xml" />
+      </configuration>
+    </facet>
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="gs-rest-service-lrn.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:Release" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="javax.json.binding-1.0" level="project" />
+    <orderEntry type="library" name="JBoss Weld-2.0.3" level="project" />
+    <orderEntry type="library" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" level="project" />
+    <orderEntry type="library" name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2 (2)" level="project" />
+    <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="org.osgi.core-6.0.0" level="project" />
+  </component>
+</module>
